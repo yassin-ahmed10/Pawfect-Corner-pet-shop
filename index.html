@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Pawfect Corner – Pet Shop</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@500;600;700&family=Nunito:wght@400;600;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="nav">
+  <a class="logo" href="#top">🐾 Pawfect<span>Corner</span></a>
+  <input type="checkbox" id="menu">
+  <label for="menu" class="burger" aria-label="Menu"><i></i><i></i><i></i></label>
+  <nav class="links">
+    <a href="#shop">Shop</a>
+    <a href="#services">Services</a>
+    <a href="#why">About</a>
+    <a href="#reviews">Reviews</a>
+    <a href="#faq">FAQ</a>
+    <a class="btn small" href="#join">Get 15% off</a>
+  </nav>
+</header>
+
+<main id="top">
+
+<section class="hero">
+  <div class="hero-text">
+    <span class="pill">🎉 Free delivery over $40</span>
+    <h1>Everything your <em>best friend</em> wants.</h1>
+    <p>Premium food, cozy beds, playful toys and loving care for dogs, cats, birds, fish and small pets. All under one happy roof.</p>
+    <div class="cta">
+      <a class="btn" href="#shop">Shop now</a>
+      <a class="btn ghost" href="#services">Book a groom</a>
+    </div>
+    <ul class="stats">
+      <li><b>12k+</b> happy pets</li>
+      <li><b>4.9★</b> rating</li>
+      <li><b>24h</b> delivery</li>
+    </ul>
+  </div>
+  <div class="hero-art">
+    <div class="blob"></div>
+    <span class="big">🐶</span>
+    <span class="f f1">🐱</span>
+    <span class="f f2">🦜</span>
+    <span class="f f3">🐠</span>
+    <span class="f f4">🦴</span>
+    <span class="f f5">🐰</span>
+  </div>
+</section>
+
+<div class="marquee" aria-hidden="true">
+  <div><span>🦴 Natural food</span><span>🧶 Safe toys</span><span>🛁 Gentle grooming</span><span>🏡 Cozy beds</span><span>💚 Vet approved</span><span>🦴 Natural food</span><span>🧶 Safe toys</span><span>🛁 Gentle grooming</span><span>🏡 Cozy beds</span><span>💚 Vet approved</span></div>
+</div>
+
+<section class="cats">
+  <a href="#shop" class="cat c1"><span>🐕</span>Dogs</a>
+  <a href="#shop" class="cat c2"><span>🐈</span>Cats</a>
+  <a href="#shop" class="cat c3"><span>🦜</span>Birds</a>
+  <a href="#shop" class="cat c4"><span>🐟</span>Fish</a>
+  <a href="#shop" class="cat c5"><span>🐹</span>Small pets</a>
+</section>
+
+<section id="shop" class="section">
+  <h2>Fan favourites</h2>
+  <p class="sub">Tap a tab to filter. Pure CSS, no scripts.</p>
+
+  <input type="radio" name="f" id="all" checked>
+  <input type="radio" name="f" id="dog">
+  <input type="radio" name="f" id="cat">
+  <input type="radio" name="f" id="oth">
+  <div class="tabs">
+    <label for="all">All</label>
+    <label for="dog">Dogs</label>
+    <label for="cat">Cats</label>
+    <label for="oth">Others</label>
+  </div>
+
+  <div class="grid">
+    <article class="card dog"><span class="tag">Best seller</span><div class="img">🦴</div><h3>Chewy Bone Bites</h3><p>Grain-free treats</p><div class="row"><b>$12.99</b><a class="add" href="#">Add +</a></div></article>
+    <article class="card cat"><span class="tag new">New</span><div class="img">🐟</div><h3>Salmon Delight</h3><p>Wet food, 12-pack</p><div class="row"><b>$24.50</b><a class="add" href="#">Add +</a></div></article>
+    <article class="card dog"><div class="img">🎾</div><h3>Super Bounce Ball</h3><p>Tough natural rubber</p><div class="row"><b>$7.99</b><a class="add" href="#">Add +</a></div></article>
+    <article class="card cat"><span class="tag sale">-20%</span><div class="img">🛏️</div><h3>Cloud Cat Bed</h3><p>Ultra-soft & washable</p><div class="row"><b>$29.00</b><a class="add" href="#">Add +</a></div></article>
+    <article class="card oth"><div class="img">🌻</div><h3>Bird Seed Mix</h3><p>Premium blend, 2 kg</p><div class="row"><b>$9.49</b><a class="add" href="#">Add +</a></div></article>
+    <article class="card oth"><span class="tag new">New</span><div class="img">🐠</div><h3>Glow Aquarium Kit</h3><p>20L with LED light</p><div class="row"><b>$59.00</b><a class="add" href="#">Add +</a></div></article>
+    <article class="card dog"><div class="img">🧥</div><h3>Rainy Day Coat</h3><p>Waterproof, 5 sizes</p><div class="row"><b>$21.00</b><a class="add" href="#">Add +</a></div></article>
+    <article class="card cat"><div class="img">🪶</div><h3>Feather Wand</h3><p>Hours of chasing fun</p><div class="row"><b>$5.99</b><a class="add" href="#">Add +</a></div></article>
+  </div>
+</section>
+
+<section id="services" class="section alt">
+  <h2>Pamper time</h2>
+  <p class="sub">Gentle hands, happy tails.</p>
+  <div class="svc">
+    <div><span>🛁</span><h3>Grooming</h3><p>Bath, trim and nail care by certified groomers.</p><b>from $35</b></div>
+    <div><span>🩺</span><h3>Health checks</h3><p>Quick wellness visits with our partner vets.</p><b>from $25</b></div>
+    <div><span>🏨</span><h3>Pet hotel</h3><p>Cosy suites, daily play and photo updates.</p><b>from $30/night</b></div>
+    <div><span>🎓</span><h3>Training</h3><p>Positive-reward classes for puppies and adults.</p><b>from $45</b></div>
+  </div>
+</section>
+
+<section id="why" class="section why">
+  <div class="why-art">🏡<small>Since 2012</small></div>
+  <div>
+    <h2>Run by pet lovers</h2>
+    <p class="sub left">We’re a family shop that treats every animal like our own. Every product is tested by our resident pets before it reaches your shelf.</p>
+    <ul class="ticks">
+      <li>Ethically sourced, vet-approved products</li>
+      <li>Friendly advice, never pushy sales</li>
+      <li>Free returns within 30 days</li>
+      <li>Rescue partnership: 5% of sales donated</li>
+    </ul>
+  </div>
+</section>
+
+<section id="reviews" class="section">
+  <h2>Tail-wagging reviews</h2>
+  <div class="rev">
+    <blockquote>“Biscuit has never been so excited for dinner. The staff are so kind!”<cite>⭐⭐⭐⭐⭐ Sara &amp; Biscuit</cite></blockquote>
+    <blockquote>“Fast delivery and the cat bed is a hit. Mochi hasn’t left it since.”<cite>⭐⭐⭐⭐⭐ Omar &amp; Mochi</cite></blockquote>
+    <blockquote>“Best grooming ever. My shy rescue came home glowing.”<cite>⭐⭐⭐⭐⭐ Lina &amp; Bear</cite></blockquote>
+  </div>
+</section>
+
+<section id="faq" class="section alt">
+  <h2>Good questions</h2>
+  <div class="faq">
+    <details><summary>Do you deliver?</summary><p>Yes! Same-day in the city, and free on orders over $40.</p></details>
+    <details><summary>Can I return an opened product?</summary><p>If your pet doesn’t love it, return it within 30 days for a full refund.</p></details>
+    <details><summary>Do I need to book grooming?</summary><p>Booking is recommended, but we welcome walk-ins when there’s space.</p></details>
+  </div>
+</section>
+
+<section id="join" class="join">
+  <h2>Join the pack, get 15% off 🐾</h2>
+  <p>Tips, treats and exclusive deals in your inbox.</p>
+  <form onsubmit="return false">
+    <input type="email" placeholder="you@email.com" aria-label="Email">
+    <button class="btn" type="submit">Subscribe</button>
+  </form>
+</section>
+
+</main>
+
+<footer>
+  <div>
+    <a class="logo" href="#top">🐾 Pawfect<span>Corner</span></a>
+    <p>Happy pets, happy homes.</p>
+  </div>
+  <div><h4>Shop</h4><a href="#shop">Dogs</a><a href="#shop">Cats</a><a href="#shop">Others</a></div>
+  <div><h4>Visit</h4><p>12 Paw Street<br>Open daily 9am–8pm</p></div>
+  <small>© 2026 Pawfect Corner. Made with ❤️ and treats.</small>
+</footer>
+
+</body>
+</html>
